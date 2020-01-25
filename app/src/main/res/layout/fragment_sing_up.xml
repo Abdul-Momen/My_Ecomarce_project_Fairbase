@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="14dp">
 
         <Button
-            android:id="@+id/signUpBtnId"
+            android:id="@+id/signUpBtnId_id"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"

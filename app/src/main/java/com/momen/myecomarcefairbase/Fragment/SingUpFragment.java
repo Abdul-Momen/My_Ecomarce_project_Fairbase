@@ -72,7 +72,7 @@ public class SingUpFragment extends Fragment {
         fullNameText = v.findViewById(R.id.signUpNameId);
         passwordText = v.findViewById(R.id.signUpPasswordId);
         confirmPasswordtext = v.findViewById(R.id.signUpConfirmPassid);
-        signUpbtn = v.findViewById(R.id.signUpBtnId);
+        signUpbtn = v.findViewById(R.id.signUpBtnId_id);
         closeBtn = v.findViewById(R.id.signUpCloseBtnId);
         progressBar = v.findViewById(R.id.signUpprogressBarId);
 
@@ -173,7 +173,8 @@ public class SingUpFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                  checkEmailAndPassword();
+
+                checkEmailAndPassword();
 
             }
         });
@@ -197,7 +198,7 @@ public class SingUpFragment extends Fragment {
             if(!TextUtils.isEmpty(fullNameText.getText())){
                if(!TextUtils.isEmpty(passwordText.getText())&& passwordText.length()>=8){
                    if(!TextUtils.isEmpty(confirmPasswordtext.getText())){
-                       signUpbtn.setEnabled(false);
+                       signUpbtn.setEnabled(true);
                        signUpbtn.setTextColor(Color.rgb( 255, 255, 255));
                    }else {
                        signUpbtn.setEnabled(false);
@@ -219,6 +220,8 @@ public class SingUpFragment extends Fragment {
     }
 
     private void checkEmailAndPassword() {
+
+
 
         if(emailText.getText().toString().matches(emailPattern)){
             if(passwordText.getText().toString().equals(confirmPasswordtext.getText().toString())){

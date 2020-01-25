@@ -27,7 +27,7 @@
             android:enabled="false"
             android:text="Sign in"
             android:textAllCaps="false"
-            android:textColor="#50ffffff"
+            android:textColor="#50FFFFFF"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

@@ -5,10 +5,10 @@
 <!--    <color name="colorAccent">#D81B60</color>-->
 
 
-    <color name="colorPrimary">#CE0000</color>
+    <color name="colorPrimary">#C97022FD</color>
     <color name="colorPrimaryDark">#CE0000</color>
     <color name="colorAccent">#ffffff</color>
-    <color name="btnRed">#9F0000</color>
+    <color name="btnRed">#B059FF</color>
     <color name="green">#148610</color>
     <color name="gree">#CECCCC</color>
     <color name="black">#000000</color>
